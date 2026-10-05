@@ -1,185 +1,113 @@
-# RR Global Professionals — Professional Website
+# RR Global Professionals — Business Website
 
-> A professional and responsive business website developed for **RR Global Professionals**, showcasing accounting, taxation, audit, and business advisory services.
+[![Live Website](https://img.shields.io/badge/Live-rrglobalprofessionals.com-brightgreen?style=flat-square&logo=google-chrome)](https://www.rrglobalprofessionals.com/)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-2.x-black?style=flat-square&logo=flask)](https://flask.palletsprojects.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=flat-square&logo=bootstrap)](https://getbootstrap.com)
+
+> A professional, fully responsive business website built for **RR Global Professionals** — a firm offering accounting, taxation, audit, and business advisory services across India, USA, Canada, UK, and UAE.
+
+---
 
 ## 🌐 Live Website
 
-**https://www.rrglobalprofessionals.com/**
+**[https://www.rrglobalprofessionals.com/](https://www.rrglobalprofessionals.com/)**
 
 ---
 
 ## 📌 Project Overview
 
-This project is a professional business website developed for **RR Global Professionals** to establish a strong digital presence and provide clear information about its professional services.
-
-The website features a clean corporate design, responsive layouts, service information, company details, and contact functionality.
+RR Global Professionals needed a strong digital presence to reach international clients and clearly present their professional services. This project delivers a clean, modern, and fully responsive corporate website built with Python (Flask) and deployed to production.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-* Professional corporate website
-* Fully responsive design
-* Mobile, tablet, and desktop compatibility
-* Modern and clean user interface
-* Professional hero section
-* Service presentation
-* Company information
-* Contact section
-* Responsive navigation
-* Client-focused content
-* Production deployment
+- Professional corporate design with modern UI
+- Fully responsive — works on mobile, tablet, and desktop
+- Hero section with clear call-to-action
+- Services section presenting all professional offerings
+- Company information and team section
+- Contact section with inquiry functionality
+- Responsive navigation with smooth scrolling
+- Production-deployed and publicly accessible
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* **Python**
-* **Flask**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Bootstrap**
-* **Jinja2**
-* **Git**
-* **GitHub**
+| Layer | Technology |
+|---|---|
+| Backend | Python, Flask, Jinja2 |
+| Frontend | HTML5, CSS3, JavaScript |
+| Styling | Bootstrap 5 |
+| Version Control | Git, GitHub |
+| Deployment | Production server |
 
 ---
 
-## 💼 Services
+## 💼 Services Showcased
 
-The website presents professional services including:
-
-* Accounting
-* Tax Preparation
-* Audit
-* 1099 Services
-* Business Consultation
-* Payroll
-* Sales Tax
-* Virtual CFO Services
-
----
-
-## 🌎 Client Coverage
-
-The website presents services for clients across:
-
-* 🇮🇳 India
-* 🇺🇸 USA
-* 🇨🇦 Canada
-* 🇬🇧 UK
-* 🇦🇪 UAE
+| Service | Coverage |
+|---|---|
+| Accounting & Bookkeeping | 🇮🇳 India · 🇺🇸 USA · 🇨🇦 Canada · 🇬🇧 UK · 🇦🇪 UAE |
+| Tax Preparation & Filing | Multi-jurisdiction |
+| Audit & Assurance | International clients |
+| 1099 Services | USA |
+| Business Consultation | Global |
+| Payroll Management | Multi-country |
+| Sales Tax | USA, Canada |
+| Virtual CFO Services | Remote, international |
 
 ---
 
-## 📱 Responsive Design
+## 🚀 Run Locally
 
-The website is designed to provide a consistent browsing experience across:
+```bash
+# Clone the repository
+git clone https://github.com/mayur-381/RR-Global-Professionals-Website.git
+cd RR-Global-Professionals-Website
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
+```
+
+Open **http://127.0.0.1:5000/** in your browser.
 
 ---
 
-## ⚙️ Project Structure
+## 📁 Project Structure
 
-```text
+```
 RR-Global-Professionals-Website/
 │
-├── app.py
-├── templates/
-├── static/
-├── requirements.txt
+├── app.py                  # Flask application entry point
+├── templates/              # Jinja2 HTML templates
+│   ├── base.html
+│   ├── index.html
+│   └── ...
+├── static/                 # Static assets
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── requirements.txt        # Python dependencies
 └── README.md
 ```
 
 ---
 
-## 💻 Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/mayur-381/RR-Global-Professionals-Website.git
-```
-
-### 2. Navigate to the project
-
-```bash
-cd RR-Global-Professionals-Website
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Flask application
-
-```bash
-python app.py
-```
-
-### 5. Open in your browser
-
-```text
-http://127.0.0.1:5000/
-```
-
----
-
-## 🚀 Deployment
-
-The website has been deployed as a production website and is publicly accessible.
-
-### 🌐 Live Website
-
-**https://www.rrglobalprofessionals.com/**
-
----
-
-## 📸 Screenshots
-
-Screenshots of the website can be added here to showcase the UI and responsive design.
-
-Recommended screenshots:
-
-* Home Page
-* About Section
-* Services Section
-* Contact Section
-* Mobile Responsive View
-
----
-
 ## 👨‍💻 Developer
 
-### Mayur Nayan Salunkhe
+**Mayur Nayan Salunkhe** — Full-Stack Developer
 
-**Software Developer | Python Developer | Full Stack Developer**
-
-This project demonstrates practical experience in developing professional, responsive web applications using **Python and Flask**.
-
-### Skills Demonstrated
-
-`Python` `Flask` `HTML5` `CSS3` `JavaScript` `Bootstrap` `Jinja2` `Git` `GitHub` `Responsive Web Design`
+[![GitHub](https://img.shields.io/badge/GitHub-mayur--381-black?style=flat-square&logo=github)](https://github.com/mayur-381)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayur%20Salunkhe-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/mayur-salunkhe-651711243)
 
 ---
 
-## 🔗 Links
+## 📄 License
 
-🌐 **Live Website:**
-https://www.rrglobalprofessionals.com/
-
-👨‍💻 **GitHub:**
-https://github.com/mayur-381
-
----
-
-## 📄 Project Note
-
-This website was developed as a professional business website for **RR Global Professionals**.
+This project was developed for **RR Global Professionals**. All rights reserved.
