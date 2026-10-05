@@ -1,65 +1,57 @@
 # RR Global Professionals — Professional Website
 
-> A modern, responsive corporate website developed for **RR Global Professionals**, a professional accounting, taxation, audit, and business advisory firm.
+> A professional and responsive business website developed for **RR Global Professionals**, showcasing accounting, taxation, audit, and business advisory services.
 
-<p align="center">
-  <a href="https://www.rrglobalprofessionals.com/">
-    <strong>🌐 Visit Live Website</strong>
-  </a>
-</p>
+## 🌐 Live Website
+
+**https://www.rrglobalprofessionals.com/**
 
 ---
 
 ## 📌 Project Overview
 
-**RR Global Professionals** is a professional services website designed to establish a strong digital presence for an accounting and business advisory firm serving clients across multiple regions.
+This project is a professional business website developed for **RR Global Professionals** to establish a strong digital presence and provide clear information about its professional services.
 
-The website presents the company's services, professional expertise, business information, and contact details through a clean and responsive user interface.
-
-### 🎯 Objective
-
-The primary objective of this project was to develop a professional, trustworthy, and responsive website that clearly communicates the firm's services while providing a smooth browsing experience across desktop, tablet, and mobile devices.
+The website features a clean corporate design, responsive layouts, service information, company details, and contact functionality.
 
 ---
 
 ## ✨ Key Features
 
-* 💼 Professional corporate design
-* 📱 Fully responsive layout
-* 🖥️ Desktop, tablet, and mobile compatibility
-* 🧾 Service-focused presentation
-* 🌎 International client coverage
-* 🏢 Professional company information
-* 📞 Contact and enquiry section
-* 🧭 Responsive navigation
-* 🎨 Consistent corporate branding
-* ⚡ Optimized frontend structure
-* 🚀 Production deployment
+* Professional corporate website
+* Fully responsive design
+* Mobile, tablet, and desktop compatibility
+* Modern and clean user interface
+* Professional hero section
+* Service presentation
+* Company information
+* Contact section
+* Responsive navigation
+* Client-focused content
+* Production deployment
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology     | Usage                     |
-| -------------- | ------------------------- |
-| **Angular**    | Frontend framework        |
-| **TypeScript** | Application logic         |
-| **HTML5**      | Website structure         |
-| **CSS3**       | Styling and layouts       |
-| **Bootstrap**  | Responsive UI components  |
-| **JavaScript** | Interactive functionality |
-| **Git**        | Version control           |
-| **GitHub**     | Source code management    |
-| **Vercel**     | Production deployment     |
+* **Python**
+* **Flask**
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **Bootstrap**
+* **Jinja2**
+* **Git**
+* **GitHub**
 
 ---
 
-## 💼 Services Presented
+## 💼 Services
 
-The website showcases professional services including:
+The website presents professional services including:
 
-* Tax Preparation
 * Accounting
+* Tax Preparation
 * Audit
 * 1099 Services
 * Business Consultation
@@ -69,100 +61,38 @@ The website showcases professional services including:
 
 ---
 
-## 🌎 Global Presence
+## 🌎 Client Coverage
 
 The website presents services for clients across:
 
-🇮🇳 India
-🇺🇸 USA
-🇨🇦 Canada
-🇬🇧 UK
-🇦🇪 UAE
+* 🇮🇳 India
+* 🇺🇸 USA
+* 🇨🇦 Canada
+* 🇬🇧 UK
+* 🇦🇪 UAE
 
 ---
 
 ## 📱 Responsive Design
 
-The website was developed with responsive design principles to provide a consistent user experience across different screen sizes.
+The website is designed to provide a consistent browsing experience across:
 
-**Supported devices:**
-
-* 💻 Desktop
-* 💻 Laptop
-* 📱 Mobile
-* 📲 Tablet
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
 ---
 
-## 🎨 Design & Branding
-
-The interface follows a professional corporate visual identity with a dark blue and gold color palette.
-
-The design focuses on:
-
-* Professionalism
-* Trust
-* Accuracy
-* Clean information hierarchy
-* Easy navigation
-* Strong service presentation
-
----
-
-## 🚀 Deployment
-
-The production website is deployed and accessible online.
-
-### 🌐 Live Website
-
-**https://www.rrglobalprofessionals.com/**
-
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-*Add your homepage screenshot here.*
+## ⚙️ Project Structure
 
 ```text
-screenshots/home.png
-```
-
-### 💼 Services
-
-*Add your services section screenshot here.*
-
-```text
-screenshots/services.png
-```
-
-### 📱 Mobile Responsive View
-
-*Add your mobile screenshot here.*
-
-```text
-screenshots/mobile.png
-```
-
-> Tip: Add 3–5 high-quality screenshots to make the repository visually attractive to recruiters and clients.
-
----
-
-## 📂 Project Structure
-
-```text
-RRGlobalProfessional/
+RR-Global-Professionals-Website/
 │
-├── src/
-│   ├── app/
-│   ├── assets/
-│   └── styles.css
-│
-├── public/
-├── angular.json
-├── package.json
-├── tsconfig.json
+├── app.py
+├── templates/
+├── static/
+├── requirements.txt
 └── README.md
 ```
 
@@ -185,42 +115,44 @@ cd RR-Global-Professionals-Website
 ### 3. Install dependencies
 
 ```bash
-npm install
+pip install -r requirements.txt
 ```
 
-### 4. Start the development server
+### 4. Run the Flask application
 
 ```bash
-ng serve
+python app.py
 ```
 
-### 5. Open in browser
+### 5. Open in your browser
 
 ```text
-http://localhost:4200/
+http://127.0.0.1:5000/
 ```
 
 ---
 
-## 🔧 Development Workflow
+## 🚀 Deployment
 
-The project was developed using a modern frontend development workflow:
+The website has been deployed as a production website and is publicly accessible.
 
-```text
-Development
-     ↓
-Angular / TypeScript
-     ↓
-Git Version Control
-     ↓
-GitHub Repository
-     ↓
-Production Build
-     ↓
-Vercel Deployment
-     ↓
-Live Website
-```
+### 🌐 Live Website
+
+**https://www.rrglobalprofessionals.com/**
+
+---
+
+## 📸 Screenshots
+
+Screenshots of the website can be added here to showcase the UI and responsive design.
+
+Recommended screenshots:
+
+* Home Page
+* About Section
+* Services Section
+* Contact Section
+* Mobile Responsive View
 
 ---
 
@@ -230,11 +162,11 @@ Live Website
 
 **Software Developer | Python Developer | Full Stack Developer**
 
-I develop responsive websites, database-driven applications, dashboards, and automation solutions using modern web technologies.
+This project demonstrates practical experience in developing professional, responsive web applications using **Python and Flask**.
 
-### Technologies & Skills
+### Skills Demonstrated
 
-`Python` `Flask` `Angular` `TypeScript` `JavaScript` `HTML5` `CSS3` `Bootstrap` `SQL` `MySQL` `SQL Server` `MongoDB` `Git` `GitHub` `REST APIs` `Responsive Web Design`
+`Python` `Flask` `HTML5` `CSS3` `JavaScript` `Bootstrap` `Jinja2` `Git` `GitHub` `Responsive Web Design`
 
 ---
 
@@ -248,8 +180,6 @@ https://github.com/mayur-381
 
 ---
 
-## 📄 License
+## 📄 Project Note
 
-This project was developed for **RR Global Professionals**.
-
-The source code and website design are intended for project/client use and should not be reused or redistributed without appropriate permission.
+This website was developed as a professional business website for **RR Global Professionals**.
